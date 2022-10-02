@@ -6,7 +6,9 @@
 
 _(this does not currently work as the package is yet to be crawled by `npms.io`)_
 
-In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find `cam` and toggle it.
+1. Open Kap `Preferences`
+2. Select the `Plugins` pane, and switch to `Discover` tab.
+3. In the list of plugins, find `cam` and toggle it on.
 
 ## Usage
 
