@@ -1,29 +1,24 @@
 # kap-cam
 
-> [Kap](https://github.com/wulkano/kap) plugin - Show a camera while recording
+> A [Kap](https://github.com/wulkano/kap) plugin that adds a Loom-like Webcam overlay to recordings.
 
-## Install
+## Installation
 
-In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find `cam`, and toggle it.
+_(this does not currently work as the package is yet to be crawled by `npms.io`)_
+In the `Kap` menu, go to `Preferences…`, select the `Plugins` pane, find `cam` and toggle it.
 
 ## Usage
 
-Click the `…` icon in the cropper, or right-click the tray icon, then `Plugins`, and make sure `Show Camera` is enabled.
+To enable or disable the overlay:
 
-The Camera does not appear until recording is started.
+1. click the `…` icon in the cropper or right-click the tray icon
+2. select `Plugins`
+3. check or uncheck `Show Camera`
 
----
+Note that the Camera window does not appear until you start a recording.
 
-## Working
+## Notes
 
-This plugin creates an overlay window showing the selected camera on the bottom-left corner of the recording.
+This is based off of [@karaggeorge's](https://github.com/karaggeorge) [kap-camera](https://github.com/karaggeorge/kap-camera/) plugin. The repo seemed to be inactive and I really wanted a more Loom-like flavour to its UI, so I decided to fork and maintain my own. Feel free to raise issues, leave feedback or contribute in any way you see fit. Cheers! 🥂
 
-## Misc
-
-This is based off of [kap-camera](https://github.com/karaggeorge/kap-camera/) by [@karaggeorge's](https://github.com/karaggeorge). I wanted a more Loom-like flavour to the UI of this plugin and decided to fork my own.
-
-### TODOs
-
--   [x] remove active window frame on macOS
--   [x] consolidate camera shape and size options
--   [ ] show camera even when recording is not started (?)
+## Demo
