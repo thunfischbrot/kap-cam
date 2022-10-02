@@ -2,7 +2,7 @@
   "name": "kap-cam",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "Display your webcam as you record.",
+  "description": "Loom-like webcam overlay for Kap",
   "repository": "clearlysid/kap-cam",
   "author": {
     "name": "Siddharth",
