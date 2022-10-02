@@ -1,13 +1,13 @@
 {
   "name": "kap-cam",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
   "description": "Loom-like webcam overlay for Kap",
   "repository": "clearlysid/kap-cam",
+  "license": "MIT",
   "author": {
     "name": "Siddharth",
     "email": "siddharth99c@gmail.com",
-    "url": "https://sid.me"
+    "url": "https://www.sid.me"
   },
   "keywords": [
     "kap-plugin",
@@ -19,7 +19,6 @@
   "kap": {
     "version": ">=3.3.2"
   },
-  "license": "MIT",
   "scripts": {
     "build-devices": "swiftc -o ./binaries/devices -target 'x86_64-apple-macosx10.14' ./binaries/devices.swift",
     "build-permissions": "swiftc -o ./binaries/permissions -target 'x86_64-apple-macosx10.14' ./binaries/permissions.swift",
