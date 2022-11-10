@@ -41,6 +41,12 @@ const config = {
     required: true,
     default: 'Medium'
   },
+  enableBlur: {
+    title: 'Blue camera background',
+    type: 'boolean',
+    default: false,
+    required: true
+  }
 };
 
 const getBounds = (cropArea, screenBounds, { width, height }) => {
