@@ -100,7 +100,7 @@ const willStartRecording = async ({ state, config, apertureOptions: { screenId, 
   });
 
   return new Promise(resolve => {
-    ipcMain.on('kap-camera-mount', resolve);
+    ipcMain.on('kap-cam-mount', resolve);
     setTimeout(resolve, 5000); // Resolve in 5s if no event
   });
 };

@@ -26,7 +26,7 @@ ipcRenderer.on('data', (_, {
 		) || defaultDevice;
 
 		if (!device) {
-			ipcRenderer.send('kap-camera-mount');
+			ipcRenderer.send('kap-cam-mount');
 			return;
 		}
 
@@ -47,7 +47,7 @@ ipcRenderer.on('data', (_, {
 
 		navigator.mediaDevices.getUserMedia({ video: { deviceId } }).then(stream => {
 			video.srcObject = stream;
-			ipcRenderer.send('kap-camera-mount');
-		}).catch(() => ipcRenderer.send('kap-camera-mount'));
-	}).catch(() => ipcRenderer.send('kap-camera-mount'));
+			ipcRenderer.send('kap-cam-mount');
+		}).catch(() => ipcRenderer.send('kap-cam-mount'));
+	}).catch(() => ipcRenderer.send('kap-cam-mount'));
 })
