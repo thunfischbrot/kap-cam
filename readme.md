@@ -32,7 +32,7 @@ Note that the Camera window does not appear until you start a recording.
 
 ## Notes
 
-This is based off of [@karaggeorge's](https://github.com/karaggeorge) [kap-camera](https://github.com/karaggeorge/kap-camera/) plugin, which was forked by [@clearlysid](https://github.com/clearlysid/kap-cam). The repos seem to be inactive, with some features broken, so I decided to fork and maintain my own. Feel free to raise issues, leave feedback or contribute in any way you see fit.
+This is based off of [@karaggeorge's](https://github.com/karaggeorge) [kap-camera](https://github.com/karaggeorge/kap-camera/) plugin, which was forked by [@clearlysid](https://github.com/clearlysid/kap-cam), which was forked by [@maticrivo](https://github.com/maticrivo/kap-cam). The repos seem to be inactive, with some features broken, so I decided to fork and maintain my own. Feel free to raise issues, leave feedback or contribute in any way you see fit.
 
 ## Demo
 
