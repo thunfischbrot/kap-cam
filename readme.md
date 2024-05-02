@@ -4,11 +4,22 @@
 
 ## Installation
 
-_(this does not currently work as the package is yet to be crawled by `npms.io`)_
+This requires using the terminal currently. The package is yet to be included by `npms.io`. It uses e.g. the number of stars of a repository to determine whether to include a package.
 
-1. Open Kap `Preferences`
-2. Select the `Plugins` pane, and switch to `Discover` tab.
-3. In the list of plugins, find `cam` and toggle it on.
+1. Open your terminal and enter the following command to download and make available the plugin to kap:
+
+```
+cd ~/Library/Application\ Support/Kap/plugins/
+npm remove kap-camera
+git clone https://github.com/thunfischbrot/kap-cam
+npm link ./kap-cam
+sed -i '' 's/"dependencies": {/"dependencies": {\n    "kap-cam": "latest",/' package.json
+npm link
+```
+
+2. Open Kap `Preferences`
+3. Select the `Plugins` pane, and switch to `Discover` tab.
+4. In the list of plugins, find `cam` and toggle it on.
 
 ## Usage
 
